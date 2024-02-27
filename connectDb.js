@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const userName = "sona";
 const password = encodeURIComponent("son@r@i");
-const databaseName = "NetflixPro";
+const databaseName = "ProNetflix";
 
 const dbURL = `mongodb+srv://${userName}:${password}@cluster0.2kihbrb.mongodb.net/${databaseName}?retryWrites=true&w=majority&appName=Cluster0`;
 
